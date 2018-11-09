@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginVertical="15dp"
+    tools:context=".VerDatos">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERICICACIÓN DE DATOS"
+        android:textSize="22dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/nombreUsus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"/>
+
+    <TextView
+        android:id="@+id/apelUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido:"/>
+
+    <TextView
+        android:id="@+id/sexoUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo:"/>
+
+    <TextView
+        android:id="@+id/museoUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Museos Selecionados:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="35dp">
+
+        <Button
+            android:id="@+id/acept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACEPTAR"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="3"
+            android:onClick="aceptta"/>
+        <Button
+            android:id="@+id/rechazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RECHAZAR"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="3"
+            android:onClick="rechazar"/>
+    </LinearLayout>
+
+</LinearLayout>

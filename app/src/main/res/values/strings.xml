@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EX20181109_1Eval</string>
+    <string name="apelUsu">Apellidos:</string>
+    <string name="nomUsu">Nombre:</string>
+    <string name="titUsu">DATOS A DAR DE ALTA</string>
+    <string name="sexoUsu">Sexo:</string>
+    <string name="masc">Masculino</string>
+    <string name="feme">Femenino</string>
+    <string name="museoDes">Museos en los que estas interesado</string>
+    <string name="art">ARTE</string>
+    <string name="cien">CIENCIA</string>
+    <string name="ot">OTROS</string>
+    <string name="botCancel">CANCELAR</string>
+    <string name="botAlta">ALTA</string>
+    <string name="comTit">ATENCIÓN!</string>
+    <string name="comTit2">Comprobar que no eres maquina</string>
+    <string name="botComp">COMPROBAR</string>
+</resources>
